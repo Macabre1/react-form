@@ -41,7 +41,6 @@ export default class Form extends React.Component {
                     value={this.state.firstName}
                     onChange={e => this.change(e)} />
                     <br />
-                    <div class="form-divider"/>
                 LAST NAME
                 <br />
                 <input
@@ -49,7 +48,6 @@ export default class Form extends React.Component {
                     value={this.state.lastName}
                     onChange={e => this.change(e)} />
                     <br />
-                    <div class="form-divider"/>
                 ADDRESS
                 <br />
                 <input
@@ -57,7 +55,6 @@ export default class Form extends React.Component {
                     value={this.state.address}
                     onChange={e => this.change(e)} />
                     <br />
-                    <div class="form-divider"/>
                 ADDRESS 2 (OPTIONAL)
                 <br />
                 <input
@@ -65,9 +62,7 @@ export default class Form extends React.Component {
                     value={this.state.addressOpt}
                     onChange={e => this.change(e)} />
                     <br />
-                    <div class="btn-divider"/>
-                <button className="next-btn" type="submit">Next <img SRC="White_Arrow.svg" alt="GIANT ROBOT LTD." width="12" height="10"/></button>
             </form>
-        );
+        )
     }
 }
